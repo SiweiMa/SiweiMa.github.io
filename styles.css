@@ -1,0 +1,22 @@
+img {
+    width: 50%;
+  }
+
+body, html {
+height: 100%;
+}
+
+#aside {
+    background-color:#04543c;
+    color: white;
+    font-size: 1.125rem;
+}
+
+#myprofile{
+    margin-top: 30vh;
+}
+
+.imgsize{
+    width: 50%;
+    height: 100%;
+}
