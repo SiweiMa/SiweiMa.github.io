@@ -1,5 +1,5 @@
 img {
-    width: 50%;
+    width: 60%;
   }
 
 body, html {
@@ -13,10 +13,15 @@ height: 100%;
 }
 
 #myprofile{
-    margin-top: 30vh;
+    margin-top: 30%;
 }
 
 .imgsize{
     width: 50%;
     height: 100%;
+}
+
+.imgsize-is-test{
+    width: 60%;
+    height: 90%;
 }
