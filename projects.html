@@ -10,20 +10,207 @@
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.0/css/all.css">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.0/css/v4-shims.css">
 
-        <title>Projects - Siwei Ma</title>
+        <title>Projects</title>
     </head>
     <body>
         <div class="container-fluid h-100">
             <div class="row h-100">
-                <!-- Left panel -->
-                <div id="sidebarContainer"></div>
+                <div id="sidebarContainer" class="col-md-4 p-0"></div>
 
                 <!-- Right panel - Projects content -->
-                <div class="col-md-8">
+                <div class="col-md-8 main-content">
                     <br>
                     <h3 style="color:grey;">Recent Projects</h3>
                     <hr>
-                    <br>
+
+                    <div class="row">
+                        <div class="col-md-12 mb-4">
+                            <div class="card h-100">
+                                <div class="card-body">
+                                    <h5 class="card-title">
+                                        <a href="https://github.com/SiweiMa/Human-Activity-Recognition" style="text-decoration: none; color: inherit;">Human Activity Recognition by Spark</a>
+                                    </h5>
+                                    <p class="card-text">
+                                        Given a large amount of data (15630426 records), the whole computing process was conducted based on distributed setting using PySpark.
+                                        The data retrieval, exploratory data analysis (EDA) was conducted using Spark SQL. Feature engineering and machine learning algorithms were implemented using Spark ML.
+                                        The entire project relies on AWS - the data was stored in S3 and computing was performed on EMR.
+                                    </p>
+                                    <div>
+                                        <button type="button" class="btn btn-secondary btn-sm mr-2 mb-2">Spark</button>
+                                        <button type="button" class="btn btn-secondary btn-sm mr-2 mb-2">Spark SQL</button>
+                                        <button type="button" class="btn btn-secondary btn-sm mr-2 mb-2">Spark ML</button>
+                                        <button type="button" class="btn btn-secondary btn-sm mr-2 mb-2">AWS</button>
+                                        <button type="button" class="btn btn-secondary btn-sm mr-2 mb-2">S3</button>
+                                        <button type="button" class="btn btn-secondary btn-sm mr-2 mb-2">EMR</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-12 mb-4">
+                            <div class="card h-100">
+                                <div class="card-body">
+                                    <h5 class="card-title">
+                                        <a href="https://github.com/SiweiMa/network-analysis" style="text-decoration: none; color: inherit;">Social Network Platform</a>
+                                    </h5>
+                                    <p class="card-text">
+                                        This projects builds a network analysis platform by using NetworkX and cugraph that can be used to explore and summarize any network you come across.
+                                    </p>
+                                    <div>
+                                        <button type="button" class="btn btn-secondary btn-sm mr-2 mb-2">Social Network Analysis</button>
+                                        <button type="button" class="btn btn-secondary btn-sm mr-2 mb-2">Community Detection</button>
+                                        <button type="button" class="btn btn-secondary btn-sm mr-2 mb-2">NetworkX</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-12 mb-4">
+                            <div class="card h-100">
+                                <div class="card-body">
+                                    <h5 class="card-title">
+                                        <a href="https://github.com/SiweiMa/topic-modeling-jeopardy" style="text-decoration: none; color: inherit;">Topic Modeling for Jeopardy! Questions</a>
+                                    </h5>
+                                    <p class="card-text">
+                                        Jeopardy! is a game show in which contestants compete to answer questions the fastest against one another. Questions are placed on a game board under themes and monetary value. This project identifies and classifies the topics of Jeopardy! question by topic modeling methods, including Non-Negative Matrix Factorization (NMF), Latent Dirichlet allocation (LDA), and word embedding with k-means clustering
+                                    </p>
+                                    <div>
+                                        <button type="button" class="btn btn-secondary btn-sm mr-2 mb-2">Topic Modeling</button>
+                                        <button type="button" class="btn btn-secondary btn-sm mr-2 mb-2">NMF</button>
+                                        <button type="button" class="btn btn-secondary btn-sm mr-2 mb-2">LDA</button>
+                                        <button type="button" class="btn btn-secondary btn-sm mr-2 mb-2">Word embedding</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-12 mb-4">
+                            <div class="card h-100">
+                                <div class="card-body">
+                                    <h5 class="card-title">
+                                        <a href="https://github.com/SiweiMa/concrete-strength-prediction" style="text-decoration: none; color: inherit;">Prediction of Concrete Strength by Machine Learning</a>
+                                    </h5>
+                                    <p class="card-text">
+                                        Concrete is the single most widely used man-made material in the world. Construction workers reply on the experiments to determine the strength of concrete. The app presents an attempt to predict the strength based on the information of raw materials by machine learning methods.
+                                    </p>
+                                    <div>
+                                        <button type="button" class="btn btn-secondary btn-sm mr-2 mb-2">Data Cleaning</button>
+                                        <button type="button" class="btn btn-secondary btn-sm mr-2 mb-2">Feature Engineering</button>
+                                        <button type="button" class="btn btn-secondary btn-sm mr-2 mb-2">Lasso</button>
+                                        <button type="button" class="btn btn-secondary btn-sm mr-2 mb-2">Random Forest</button>
+                                        <button type="button" class="btn btn-secondary btn-sm mr-2 mb-2">Extra Tree</button>
+                                        <button type="button" class="btn btn-secondary btn-sm mr-2 mb-2">Xgboost</button>
+                                        <button type="button" class="btn btn-secondary btn-sm mr-2 mb-2">lightGBM</button>
+                                        <button type="button" class="btn btn-secondary btn-sm mr-2 mb-2">Feature Importance</button>
+                                        <button type="button" class="btn btn-secondary btn-sm mr-2 mb-2">Streamlit</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-12 mb-4">
+                            <div class="card h-100">
+                                <div class="card-body">
+                                    <h5 class="card-title">
+                                        <a href="https://github.com/SiweiMa/user-search" style="text-decoration: none; color: inherit;">User Profile Searching Tool</a>
+                                    </h5>
+                                    <p class="card-text">
+                                        Given a customer ID, the tool will return the customer's segment/clustering, CLV, the conditional expected number of purchases for next month, the probability of the customer being alive, detailed purchase history.
+                                    </p>
+                                    <div>
+                                        <button type="button" class="btn btn-secondary btn-sm mr-2 mb-2">RFM</button>
+                                        <button type="button" class="btn btn-secondary btn-sm mr-2 mb-2">CLV</button>
+                                        <button type="button" class="btn btn-secondary btn-sm mr-2 mb-2">Clustering</button>
+                                        <button type="button" class="btn btn-secondary btn-sm mr-2 mb-2">BG/NBD model</button>
+                                        <button type="button" class="btn btn-secondary btn-sm mr-2 mb-2">Flask</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-12 mb-4">
+                            <div class="card h-100">
+                                <div class="card-body">
+                                    <h5 class="card-title">
+                                        <a href="https://github.com/SiweiMa/is-test" style="text-decoration: none; color: inherit;">Are training and test sets are drawn from the same distribution?</a>
+                                    </h5>
+                                    <p class="card-text">
+                                        Implementation of an awesome trick to determine if training and test are from the same distribution.
+                                    </p>
+                                    <div>
+                                        <button type="button" class="btn btn-secondary btn-sm mr-2 mb-2">Random Forest</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-12 mb-4">
+                            <div class="card h-100">
+                                <div class="card-body">
+                                    <h5 class="card-title">
+                                        <a href="https://github.com/SiweiMa/Ames-House-deep-learning" style="text-decoration: none; color: inherit;">Revisit Ames House Prices with Deep Learning Model</a>
+                                    </h5>
+                                    <p class="card-text">
+                                        The project was revisited with deep learning model using Pytorch. The final RMSE of the deep learning model has similar results with one of the multiple linear regression model with feature engineering/selection.
+                                    </p>
+                                    <div>
+                                        <button type="button" class="btn btn-secondary btn-sm mr-2 mb-2">Pytorch</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-12 mb-4">
+                            <div class="card h-100">
+                                <div class="card-body">
+                                    <h5 class="card-title">
+                                        <a href="https://github.com/SiweiMa/Ames-House-Prices-Multiple-Linear-Regression-Project-in-Python" style="text-decoration: none; color: inherit;">Ames House Prices Prediction</a>
+                                    </h5>
+                                    <p class="card-text">
+                                        Given Ames Housing dataset, a mixed stepwise selection was performed to reduce the set of variables and select the best model based on AIC, BIC, and adjust R-squared. With the best model selected, the model assumptions were checked regarding normality and several solutions were proposed to solve the assumption violation. The model was then tested on unseen data and scored on Root-Mean-Squared-Error (RMSE).
+                                    </p>
+                                    <div>
+                                        <button type="button" class="btn btn-secondary btn-sm mr-2 mb-2">Multiple Linear Regression</button>
+                                        <button type="button" class="btn btn-secondary btn-sm mr-2 mb-2">Statsmodels</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-12 mb-4">
+                            <div class="card h-100">
+                                <div class="card-body">
+                                    <h5 class="card-title">
+                                        <a href="https://github.com/SiweiMa/police-stop-eda" style="text-decoration: none; color: inherit;">The <strong>Why</strong>, <strong>Who</strong>, <strong>When</strong>, <strong>Where</strong> of Police Stops in San Francisco</a>
+                                    </h5>
+                                    <p class="card-text">
+                                        The traffic stop is known as one of the most common ways in which the public interacts with the police. We found that the methodology of police stops still has space to improve, especially regarding to the target population, by analyzing all San Francisco police stops from 2007 to 2016.
+                                    </p>
+                                    <div>
+                                        <button type="button" class="btn btn-secondary btn-sm mr-2 mb-2">Visualization</button>
+                                        <button type="button" class="btn btn-secondary btn-sm mr-2 mb-2">EDA</button>
+                                        <button type="button" class="btn btn-secondary btn-sm mr-2 mb-2">Matplotlib</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-12 mb-4">
+                            <div class="card h-100">
+                                <div class="card-body">
+                                    <h5 class="card-title">
+                                        <a href="https://github.com/SiweiMa/AB-Testing-Final-Project" style="text-decoration: none; color: inherit;">Udacity A/B Testing <small>- Final Course Project</small></a>
+                                    </h5>
+                                    <p class="card-text">
+                                        In this experiment, we tested a change in Udacity to see if it will improve the overall student experience and improve coaches' capacity.
+                                    </p>
+                                    <div>
+                                        <button type="button" class="btn btn-secondary btn-sm mr-2 mb-2">A/B testing</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
