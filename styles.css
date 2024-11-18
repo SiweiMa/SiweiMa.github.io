@@ -3,22 +3,41 @@ img {
   }
 
 body, html {
-height: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid {
+    min-height: 100vh;
+}
+
+.row {
+    min-height: 100vh;
 }
 
 #aside {
-    background-color:#04543c;
+    background-color: #04543c;
     color: white;
     font-size: 1.125rem;
+    position: fixed;
+    padding: 20px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    overflow-y: auto;
+    width: 33.333%;
+    max-width: 33.333%;
 }
 
-#myprofile{
-    margin-top: 30%;
+#myprofile {
+    margin-top: 20px;
+    text-align: center;
 }
 
-.imgsize{
+.imgsize {
     width: 50%;
-    height: 100%;
+    height: auto;
 }
 
 .imgsize-is-test{
@@ -27,4 +46,22 @@ height: 100%;
 }
 
 .top-buffer { margin-top:2px; }
+
+/* Add margin to main content to offset fixed sidebar */
+.main-content {
+    margin-left: 33.333%; /* Offset for the fixed sidebar (col-md-4 = 33.333%) */
+    padding: 20px;
+}
+
+/* Add this new style for the sidebar container */
+#sidebarContainer {
+    background-color: #04543c;
+    height: 100vh;
+    position: fixed;
+    width: 33.333%;
+    left: 0;
+    top: 0;
+    overflow-y: auto;
+    padding: 20px;
+}
 

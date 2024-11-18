@@ -15,22 +15,46 @@
     <body>
         <div class="container-fluid h-100">
             <div class="row h-100">
-                <!-- Left panel -->
-                <div id="sidebarContainer"></div>
+                <div id="sidebarContainer" class="col-md-4 p-0"></div>
 
-                <!-- Right panel -->
-                <div class="col-md-8">
-                    <!-- Empty main page -->
+                <!-- Main Content -->
+                <div class="col-md-8 offset-md-4 main-content">
+                    <br>
+                    <h3 style="color:grey;">Blog</h3>
+                    <hr>
+                    <div class="row">
+                        <!-- War: How Conflict Shaped Us -->
+                        <div class="col-md-12 mb-4">
+                            <div class="card h-100">
+                                <div class="card-body">
+                                    <h5 class="card-title">A Reflection on 2012</h5>
+                                    <h6 class="card-subtitle mb-3 text-muted">November 2024</h6>
+                                    <p class="card-text">
+                                        <p>In 2012, I was twenty-three. An age still touched by youth, and I felt every bit of it. The raw force of life drove me on. Emotions ran deep. Sometimes I'd jot down a line or two from a song. But the poisonous knots inside were starting to fade.</p>
+
+                                        <p>That year, I stayed in Zhengzhou. My father found me a temporary job at the Henan Building Materials magazine. Aside from the president, there were only three of us: the editor-in-chief, the deputy editor, and an accountant. The deputy editor also cooked lunch for us. The president often grumbled about a former employee who went abroad and never reached out again. Said he was ungrateful, cold, not even a phone call. I agreed then. If you can't make a single call in a year, that's cold indeed. Later, I came to America. Except for the first year, I never called the president again. Only then did I understand how hard it is not to be distant.</p>
+                                        
+                                        <p>Everyone wants to be remembered on holidays, not just be the one remembering others. When no friends reach out, you still think of them, but the words stick in your throat. It's like there's a scoreboard showing your place in the world. Each time someone calls you, you gain a point. When you reach out first, you lose one. Is there such a scoreboard? Maybe, but it's on another field. "Love sincerely"—that's what I believe now, the rule of this game we're in.</p>
+                                        
+                                        <p>That same year, I came to New York to study civil engineering. Choosing civil engineering was taking a local optima and mistaking it for the global optima. In college, I studied materials science at an architecture university where civil engineering was top dog. So, it became my obsession. During one semester of grad school, I spent countless nights awake, wrestling with finite elements and structural mechanics. For what? Just to feed the beast of obsession.</p>
+                                        
+                                        <p>I wasn't blind to my narrow view. I once wrote, "Being too stubborn loses the wide horizon." I saved articles about switching to computer science but never made the move. I was afraid of falling behind in civil engineering. Looking back now, it's almost laughable. But then, it was real fear. Even now, the eyes of others in a narrow field press on me, so I tend to throw myself into what's at hand. Life's inertia is strong. Sitting on a slide, you have no choice but to go down, which only adds to the force. Busy to the point of confusion, all I did was waste time.</p>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        
+
+                    </div>
                 </div>
             </div>
         </div>
 
-        <!-- Bootstrap JS -->
+        <!-- Scripts -->
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
         
-        <!-- Sidebar Loading Script -->
         <script>
             fetch('sidebar.html')
                 .then(response => response.text())
