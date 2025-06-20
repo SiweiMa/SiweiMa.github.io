@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang='en-us'>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.0/css/all.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.0/css/v4-shims.css">
+
+        <title>Jobs</title>
+    </head>
+    <body>
+        <div class="container-fluid h-100">
+            <div class="row h-100">
+                <div id="sidebarContainer" class="col-md-4 p-0"></div>
+
+                <!-- Main Content -->
+                <div class="col-md-8 offset-md-4 main-content">
+                    <br>
+                    <h3 style="color:grey;">Job Opportunities</h3>
+                    <hr>
+                    
+                    <div class="row">
+                        <div class="col-md-12 mb-4">
+                            <div class="card h-100">
+                                <div class="card-body">
+                                    <h5 class="card-title">Current Job Openings</h5>
+                                    <p class="card-text">
+                                        Below are some exciting job opportunities in data science and related fields. Click on the links to learn more about each position and apply.
+                                    </p>
+                                    
+                                    <div class="table-responsive">
+                                        <table class="table table-hover">
+                                            <thead class="thead-light">
+                                                <tr>
+                                                    <th scope="col">Job Title</th>
+                                                    <th scope="col">Company</th>
+                                                    <th scope="col">Location</th>
+                                                    <th scope="col">Apply</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>Senior Data Scientist</td>
+                                                    <td>Abridge</td>
+                                                    <td>San Francisco</td>
+                                                    <td>
+                                                        <a href="https://www.abridge.com/careers" target="_blank" class="btn btn-primary btn-sm">
+                                                            <i class="fas fa-external-link-alt"></i> Apply
+                                                        </a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Data Scientist</td>
+                                                    <td>Atlas</td>
+                                                    <td>Berkeley</td>
+                                                    <td>
+                                                        <a href="https://atlas.ai/careers" target="_blank" class="btn btn-primary btn-sm">
+                                                            <i class="fas fa-external-link-alt"></i> Apply
+                                                        </a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Senior Data Scientist</td>
+                                                    <td>Calm</td>
+                                                    <td>San Francisco</td>
+                                                    <td>
+                                                        <a href="https://www.calm.com/careers" target="_blank" class="btn btn-primary btn-sm">
+                                                            <i class="fas fa-external-link-alt"></i> Apply
+                                                        </a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Data Science Consultant</td>
+                                                    <td>En Consulting</td>
+                                                    <td>Mountain View</td>
+                                                    <td>
+                                                        <a href="https://enconsulting.com/careers" target="_blank" class="btn btn-primary btn-sm">
+                                                            <i class="fas fa-external-link-alt"></i> Apply
+                                                        </a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Senior Data Scientist</td>
+                                                    <td>Nuro</td>
+                                                    <td>Mountain View</td>
+                                                    <td>
+                                                        <a href="https://www.nuro.ai/careers" target="_blank" class="btn btn-primary btn-sm">
+                                                            <i class="fas fa-external-link-alt"></i> Apply
+                                                        </a>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Scripts -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        
+        <script>
+            fetch('sidebar.html')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('sidebarContainer').innerHTML = data;
+                });
+        </script>
+    </body>
+</html> 
